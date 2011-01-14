@@ -37,7 +37,7 @@ bot = Cinch::Bot.new do
   end
 
   on :message, /^!source/ do |m|
-    m.replay("https://github.com/Kelsin/gutol_bot")
+    m.reply("https://github.com/Kelsin/gutol_bot")
   end
 end
 

@@ -35,6 +35,10 @@ bot = Cinch::Bot.new do
   on :message, /evan/ do |m|
     m.reply("gtfo")
   end
+
+  on :message, /^!source/ do |m|
+    m.replay("https://github.com/Kelsin/gutol_bot")
+  end
 end
 
 bot.start
